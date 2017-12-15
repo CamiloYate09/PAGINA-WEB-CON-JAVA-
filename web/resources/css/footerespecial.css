@@ -1,0 +1,62 @@
+
+
+div#body__uno{
+
+    margin:auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 1200px;
+    height: 300px;
+/*    border: 1px solid green;*/
+/*    background: #ff0 url(/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/golf.png?ln=img);*/
+ 
+    
+
+
+}
+div#izquierda{
+    width: 300px;
+    height: 300px;
+  
+    float: left;
+/*    text-align: center;*/
+
+}
+
+div#centro{
+    width: 300px;
+    height: 300px;
+
+    float: left;
+
+}
+
+div#centro__dos{
+    width: 300px;
+    height: 300px;
+
+    float: left;
+
+
+
+}
+div#izquierda__dos{
+
+    width: 298px;
+    height: 300px;
+   
+    float: left;
+}
+li#puntero{
+    text-decoration: none;
+/*  text-align: center;*/
+font-size: 17px;
+margin-left: 21px;
+
+margin-top: 22px;
+    
+}
+h6#letra{
+    
+    font-size: 20px;
+}

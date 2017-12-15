@@ -1,0 +1,519 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-nov-2017, 9:52:01
+    Author     : Camilo
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-nov-2017, 10:03:13
+    Author     : Camilo
+*/
+/*
+.clearfix:before, clearfix:after{
+    display: table;
+    content: "";
+}
+clearfix:after{
+    clear: both;
+}*/
+
+.clearfix:before,.clearfix:after,.container:before,.container:after{
+	display:table;
+	content: "";
+}
+.clearfix:after,.container:after{
+	clear: both;
+}
+.container{
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.cabecera .container_dos{
+
+    width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+
+}
+
+.cabecera .logo{
+
+    float: left;
+    width: 230px;
+    padding: 10px 0;
+}
+.inicio {
+
+
+    float: right;
+    width: 150px;
+    list-style: none;
+
+
+}
+.margin{
+    text-decoration: none;
+}
+
+a{
+    color: #A1E8BE;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+a:hover{
+
+    color: #FF9F73;
+}
+.cabecera .menu{
+
+    float: right;
+}
+.cabecera .menu ul{
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+}
+.cabecera .menu ul li{
+    float: left;
+
+
+}
+
+.cabecera .menu ul li a{
+    padding: 0 15px;
+    color: #6B7287;
+    display: block;
+    line-height: 90px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+
+}
+.cabecera .menu ul li a:hover{
+    color: #ffffff;
+    /*    border-bottom: 2px solid red;*/
+    box-shadow: 0 -90px 0 #2fb677 inset;
+
+}
+
+.cabecera .menu ul li.active a{
+    color: #ffffff;
+    /*    border-bottom: 2px solid red;*/
+    box-shadow: 0 -90px 0 #2fb677 inset;
+
+}
+a{
+    text-decoration: none;
+}
+
+/*  ESTILOS PARA EL SLIDER SEGUNDO AL MANDO*/
+#c-slider{
+    /*
+     margin: 0.5% 20%;
+        width: 90%;
+        max-width: 900px;*/
+    margin: auto;
+    width: 85%;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+#slider{
+    display: -webkit-frex;
+    display: -moz-frex;
+    display: -ms-frex;
+    display: -o-frex;
+    display: flex;
+    /*SI SE PONEN MAS IMAGENES SE TIENE QUE AMPLIAR EL PORCENTAJE !!!MUY IMPORTANTE*/
+    width: 400%;
+}
+
+#slider section{
+    width: 100%;
+}
+#slider img{
+
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#btn-prev ,#btn-next {
+
+    width: 40px;
+    height: 40px;
+    background: rgba( 161, 165, 155, 2);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #09A21B;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+}
+#btn-prev:hover ,#btn-next:hover {
+
+    background: rgba(255,255,255,3)
+
+
+}
+
+
+#btn-prev{
+    left: 10px;
+}
+#btn-next{
+    right: 10px;
+}
+/*.slider-img{
+    width: 100%;
+height: 400px;
+    
+}*/
+
+
+
+/*  ESTILOS PARA EL SLIDER SEGUNDO AL MANDO*/
+.titulos-wap{
+
+    text-align: center;
+    padding: 5px 10px;
+}
+.titulos-wap .titulo{
+    margin: 0;
+    padding: .2em 0;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #09A21B;
+}
+
+
+
+
+
+
+/* SERVICIOS */
+.servicios{
+    padding:30px 0;
+    background: #DFDEFF url("/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/golf.png?ln=img");
+}
+.servicios .item{
+    width:380px;
+    padding:15px 15px;
+    float:left;
+    text-align:center;	
+}
+.servicios .item .icon{
+    margin:0 auto;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:1px solid #2fb677;	
+}
+.servicios .item .icon span{
+    line-height:100px;
+    text-align:center;	
+    -webkit-transition:all .3s;
+    -moz-transition:all .3s;
+    -ms-transition:all .3s;
+    -o-transition:all .3s;
+    transition:all .3s
+}
+.servicios .item header h3{
+    margin:0;
+    padding:10px 0 5px;
+}
+.servicios .item header p{
+    margin:0;
+}
+.servicios .item:hover .icon span,.servicios .item:hover header h3 a{
+    color:#2fb677;
+}
+
+
+/* POSTS *******************************************************************/
+.posts-wrap{
+	padding:30px 0;
+	background: #fff url("/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/bg3.png?ln=img");
+	box-shadow:0 1px 3px rgba(0,0,0,0.08) inset,0 -1px 3px rgba(0,0,0,0.08) inset;
+}
+.posts-wrap .post{
+	width:285px;
+	margin:0;
+	padding:10px 22px 20px;
+	float:left;
+        text-align: center;
+}
+.posts-wrap .post img{
+	height:174px;
+/*        border-radius: 100%;*/
+
+
+}
+
+.posts-wrap .post figcaption h3{
+	margin:0;
+	padding:10px 0 5px;
+       
+}
+.posts-wrap .post .date{
+	margin:0
+         
+}
+p{
+    text-align: center;
+}
+img{
+    text-align: center;
+    width: 70%;
+    height: 20%;
+   
+}
+.posts-wrap .post .date .fa{
+	margin-right: 7px;
+}
+/*ESTILOS FOOTER**************************************/
+
+.footer{
+    background: #333  url("/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/golf.png?ln=img");
+    color: #2fb677;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px; 
+    
+    
+}
+
+.sociales{
+    
+    position: fixed;
+    left:0 ;
+    top: 200px;
+    z-index: 2000;
+}
+*{
+    
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.sociales ul{
+    
+    list-style: none;
+}
+
+.sociales ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-animation: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    
+}
+
+
+
+.sociales ul li .icon-facebook{ background:#3b5998; }
+.sociales ul li .icon-twitter{ background:#00abf0; }
+.sociales ul li .icon-google{ background:#6080DB; }
+.sociales ul li .icon-youtube{ background:red; }
+.sociales ul li .icon-whatsapp{ background:green; }
+.sociales ul li .icon-instagram{ background:#E33DFF; }
+
+.sociales ul li a:hover{
+    padding:  10px 30px;
+    background: #AFAFAF;
+}
+
+#scrollUp{
+    bottom: 80px;
+    right:20px;
+    width: 50px;
+    height: 50px;
+   background: url("/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/up5.png?ln=img");
+   background-size: cover;
+   background-color:  #3b5998;
+ border-radius: 50px;
+
+    
+}
+/*estilos de productos */
+
+.section__titulo{
+    text-align: center;
+    font-size: 30px;
+    color: #09A21B;
+}
+.imformacion{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: yellow;
+    background: rgba(0,0,0, 0.10);
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+    
+}
+.productos__columna{
+    position: relative;
+    margin-bottom: 30px;
+}
+.productos__titulo{
+    font-size: 25px;
+    margin: 5px 0;
+    
+    
+    
+}
+
+/*TABLA DE PRECIOS-.............................................................*/
+
+.tabla{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 75px;
+    
+}
+.tablax4{
+    float: left;
+    width: 24%;
+    margin-top: 20px;
+    
+}
+.tablaxd{
+   float: left;
+    width: 24%;
+    margin-top: 10px; 
+    
+}
+.caja-precio{
+    border: 1px solid #5c6552;
+    background: #30353c
+}
+.caja-precio:hover{
+    
+    border: 5px solid yellow;
+}
+.caja-precio{
+    color: #85c34a;
+    padding-top: 20px;
+    font-size: 3em;
+    padding-bottom: 10px;
+}
+.plan{
+    color: #fff;
+}
+.precio-1{
+    color: #85c34a;
+    font-size: 40px;
+    font-weight: bold;
+}
+.dolar{
+    font-size: 18px;
+    color: #85c34a;
+    vertical-align: super;
+}
+.mes{
+    font-size: 21px;
+    color: #ffffff;
+    vertical-align: text-bottom;
+}
+.lista-precios{
+    list-style: none;
+    padding: 20px 0;
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+.lista-espacios{
+    padding: 0.25em;
+    font-size: 15px;
+}
+.boton-contratar{
+    margin-bottom: 10px;
+    margin-top: -44px;
+}
+.contratar-a{
+    background: #85c34a;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    letter-spacing: 2px;
+    width: 90%;
+    border-radius: 50px;
+    font-size: 31px;
+    
+    
+}
+.contratar-a:hover{
+    background: #777;
+}
+
+.destacado{
+    
+    background-color: #6080DB;
+    box-shadow: 0 0 8px rgba(0,0,0,0.9);
+    z-index: 500;
+}
+.destacado h4{
+    color: #30353c;
+    font-size: 30px;
+}
+.destacado .contratar-a{
+    background: #30353c;
+}
+.destacado .contratar-a:hover{
+    background: #777;
+}
+/*.destacado .icono-precio{
+    font-size: 1em;
+}*/
+
+.fa-star{
+    color: #30353c;
+}
+
+/*PAGINA DE REGISTRO*/
+.estilo{
+    
+    border-radius: 13px;
+}
+.radio{
+    right: 123px;
+    bottom: -16px;
+}

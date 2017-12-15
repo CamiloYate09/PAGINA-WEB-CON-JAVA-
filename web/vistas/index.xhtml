@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:jsf="http://xmlns.jcp.org/jsf">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta http-equiv="Content-Type" content="La empresa numero uno de telefonia movil en colombia" name="description" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <h:outputStylesheet name="./css/estilos.css"/>
+        <h:outputStylesheet name="./css/footerespecial.css"/>
+
+        <h:outputStylesheet name="./css/normalize.css"/>
+        <h:outputStylesheet name="./css/animate.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+        <h:outputStylesheet name="./css/font-awesome.min.css"/>
+
+        <h:outputScript name="jquery-3.2.1.min.js" library="js" />
+        <h:outputScript name="slider.js" library="js" />
+        <h:outputScript name="wow.min.js" library="js" />
+        <h:outputScript name="jquery.scrollUp.js" library="js" />
+        <link rel="stylesheet" href="https://file.myfontastic.com/cXCEhVVpRPcszceRNFnnQW/icons.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"/>
+
+
+        <title>Huawei Telecomunicaciones </title>
+
+
+    </h:head>
+
+    <h:body>
+
+
+        <div  class="principal">
+
+            <header>
+                <div class="inicio">
+                    <nav class="inicio-dos">
+
+
+                        <li type="button" class="btn btn-success boton"><a href="../login.jsp">Mi cuenta</a></li>
+
+                    </nav>
+                </div>
+            </header>
+
+            <header class="cabecera">
+
+                <div class="container_dos clearfix">
+                    <div   class="logo">
+
+                        <h:graphicImage library="img" name="huawei.png"/> 
+                    </div>
+
+                    <nav class="menu">
+
+                        <ul>
+                            <li class="active"> <a href="celulares.xhtml">Móvil</a></li>
+                            <li> <a href="promociones.xhtml">Hogares</a></li>
+                            <li> <a href="#">Empresas</a></li>
+                            <li> <a href="#">Atención al Cliente</a></li>
+                        </ul>
+
+                    </nav>
+                </div>
+
+            </header>
+
+            <!--SLIDER SEGUNDO ORDEN ESTAR REVISANDO CODIGO -->
+
+            <div id="c-slider">
+                <div id="slider">
+                    <section> 
+                        <img class="slider-img" src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/huawei1.jpg?ln=img"></img>
+
+                    </section>
+                    <section> 
+                        <img class="slider-img" src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/huawei5.jpg?ln=img"></img>
+                    </section>
+                    <section> 
+                        <img class="slider-img" src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/huawei3.jpg?ln=img"></img>
+                    </section>
+                    <section> 
+                        <img class="slider-img" src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/huawei4.jpg?ln=img"></img>
+                    </section>
+
+
+                </div>
+                <div id="btn-prev"> &#60;</div>
+                <div id="btn-next">&#62;</div>
+
+            </div>
+
+            <!--SLIDER SEGUNDO ORDEN ESTAR REVISANDO CODIGO -->
+
+
+
+
+            <!--CODIGO PARA LOS SERVICIOS TERCER PANEL -->
+            <div class="container-principal">
+                <section jsf:id="section" class="servicios">
+                    <hgroup jsf:id="hgroup" class="titulos-wap">
+                        <h2 class="titulo wow shake " data-wow-delay="0.3s"> servicios</h2>
+
+
+
+                    </hgroup>
+                    <div class="container clearfix">
+                        <article jsf:id="article" class="item">
+                            <div class="icon">
+                                <span class="fa fa-address-card fa-4x wow swing "> </span>
+
+                            </div>
+                            <header jsf:id="header" >
+                                <h3><a href="../login.jsp">Paga tu Factura</a> </h3>
+                                <p> Es rápido y seguro. Elige el medio que más te convenga.</p>
+
+
+                            </header>
+
+                        </article>
+
+                        <article jsf:id="article" class="item">
+                            <div class="icon">
+                                <span class="fa fa-user-circle fa-4x wow swing"> </span>
+
+                            </div>
+                            <header jsf:id="header" >
+                                <h3><a href="#">Registra tu equipo</a> </h3>
+                                <p> Actualiza tu información ahora.</p>
+
+
+                            </header>
+
+                        </article>
+
+
+                        <article jsf:id="article" class="item">
+                            <div class="icon">
+                                <span class="fa fa-cart-plus fa-4x wow swing"> </span>
+
+                            </div>
+                            <header jsf:id="header" >
+                                <h3><a href="#"> Compra un paquete</a> </h3>
+                                <p> ¡Haz rendir tu saldo!</p>
+
+
+                            </header>
+
+                        </article>
+
+
+
+
+                    </div>
+
+
+                </section>
+
+
+
+            </div>
+
+
+
+
+            <!--CODIGO PARA LOS SERVICIOS TERCER PANEL -->
+            <!--///////////////////////////////////////////////////////////////////////////////-->
+            <!--UN PANEL NUEVO PARA LA PLATAFORMA -->
+
+            <div class="">
+                <section  jsf:id="section" class="posts-wrap">
+                    <hgroup jsf:id="hgroup" class="titulos-wap">
+                        <h2 class="titulo wow shake">Productos </h2>
+
+                    </hgroup>
+
+                    <div class="container productos">
+
+                        <figure jsf:id="figure" class="post wow fadeInLeft">
+                            <img src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/musica.png?ln=img" alt="Mapa de cobertura" />
+
+                            <figcaption jsf:id="figcaption" >
+                                <h3 class="imformacion"> <a href="#">Huawei Música</a> </h3>
+
+
+                            </figcaption>
+                        </figure>
+                        <figure jsf:id="figure" class="post wow fadeInLeft">
+                            <img src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/tv.png?ln=img" alt="Mapa de cobertura" />
+
+                            <figcaption jsf:id="figcaption">
+                                <h3 class="imformacion"> <a href="promociones.xhtml">Huawei Television</a> </h3>
+
+
+                            </figcaption>
+                        </figure>
+                        <figure jsf:id="figure" class="post wow fadeInLeft">
+                            <img src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/play.png?ln=img" alt="Mapa de cobertura" />
+
+                            <figcaption jsf:id="figcaption">
+                                <h3 class="imformacion"> <a href="#">Huawei Play</a> </h3>
+
+
+                            </figcaption>
+                        </figure>
+                        <figure jsf:id="figure" class="post wow fadeInLeft">
+                            <img src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/mapa.png?ln=img" alt="Mapa de cobertura" />
+
+                            <figcaption jsf:id="figcaption">
+                                <h3 class="imformacion"> <a href="maps.xhtml">Tiendas Huawei</a> </h3>
+
+
+                            </figcaption>
+
+
+                        </figure> 
+                    </div>
+                </section>
+
+
+            </div>
+
+
+            <section  jsf:id="section" class="posts-wrap">
+                <hgroup jsf:id="hgroup" class="titulos-wap">
+                    <h2 class="titulo wow shake">Soporte </h2>
+
+                </hgroup>
+
+                <div class="container">
+
+                    <figure jsf:id="figure" class="post wow fadeInLeft">
+                        <img src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/loading.png?ln=img" alt="Mapa de cobertura" />
+
+                        <figcaption jsf:id="figcaption">
+                            <h3> <a href="../cobertura.jsp">Mapa de Cobertura</a> </h3>
+                            <p class="date"> <i > Nuestra Red en toda Colombia</i></p>
+
+                        </figcaption>
+                    </figure>
+                    <figure jsf:id="figure" class="post wow fadeInLeft">
+                        <img src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/coertura.png?ln=img" alt="Mapa de cobertura" />
+
+                        <figcaption jsf:id="figcaption">
+                            <h3> <a href="https://fast.com/es/" target="_blank">Medidor de velocidad</a> </h3>
+                            <p class="date"> <i >Consulta la velocidad de tu conexión</i></p>
+
+                        </figcaption>
+                    </figure>
+                    <figure jsf:id="figure" class="post wow fadeInLeft">
+                        <img src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/usuario.png?ln=img" alt="Mapa de cobertura" />
+
+                        <figcaption jsf:id="figcaption">
+                            <h3> <a href="#">Protección al usuario</a> </h3>
+                            <p class="date"><i >Tus derechos como cliente </i></p>
+
+                        </figcaption>
+                    </figure>
+                    <figure jsf:id="figure" class="post wow fadeInLeft">
+                        <img src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/quejas.png?ln=img" alt="Mapa de cobertura" />
+
+                        <figcaption jsf:id="figcaption">
+                            <h3> <a href="#">Quejas o reclamos</a> </h3>
+                            <p class="date"><i >Radica y consulta el estado de tu caso</i></p>
+
+                        </figcaption>
+
+
+                    </figure>
+
+
+
+
+                </div>
+
+
+            </section>
+
+
+            <!--CODIGO PARA LOS SERVICIOS CUARTO PANEL -->
+
+            <!--CODIGO PARA LOS CONTACTOS -->
+
+
+            <!--CODIGO PARA LOS CONTACTOS -->
+
+
+            <!--CODIGO PARA LA RED SOCIAL -->
+
+            <div class="sociales">
+                <ul>
+                    <li><a href="https://es-la.facebook.com/huaweimobile/" target="_blank" class="icon-facebook" name="facebook"></a> </li>
+                    <li><a href="https://twitter.com/huaweimobile" target="_blank" class="icon-twitter"></a> </li>
+                    <li><a href="https://plus.google.com/+huawei" target="_blank" class="icon-google"></a> </li>
+                    <li><a href="https://www.youtube.com/channel/UCtjV1_XU6gvPYyreaFScxBQ" target="_blank" class="icon-youtube"></a> </li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank"  class="icon-whatsapp"></a> </li>
+                    <li><a href="https://www.instagram.com/huaweimobile/" target="_blank"  class="icon-instagram"></a> </li>
+
+
+
+                </ul>
+
+
+            </div>
+
+            <!--CODIGO PARA LA RED SOCIAL -->
+
+            <!--////////////////////////////////////////////////////////////////////// -->
+            <!--CODIGO PARA EL PRIMER FOOTER -->
+            <div id="body__uno">
+
+                <div id="izquierda">
+                    <center>
+                        <h6 id="letra" class="wow flip">Atención al cliente</h6>
+                    </center>    
+                    <ul>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> Mi Cuenta</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> Centro de Ayuda</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> Tiendas</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#">Gestiona tu Chip y Equipo</a> </li>
+
+
+                    </ul>
+
+                </div>
+
+                <div id="centro">
+                  <center>
+                        <h6 id="letra" class="wow flip">Nosotros</h6>
+                    </center>    
+                    <ul>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> Nuestra empresa</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> Proveedores</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> Etica empresarial</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#">Familia Huawei</a> </li>
+
+
+                    </ul>   
+                    
+
+                </div>
+
+                <div id="centro__dos">
+                    
+                    
+                     <center>
+                        <h6 id="letra" class="wow flip">Regulación</h6>
+                    </center>    
+                    <ul>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> Histórico Promociones</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> Oferta básica de interconexión</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> Políticas de seguridad</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#">Mantenimientos programados</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#">Certificado SARLAFT</a> </li>
+
+
+                    </ul>   
+
+                </div>
+
+                <div id="izquierda__dos">
+                    
+                      <center>
+                        <h6 id="letra" class="wow flip">Líneas de atención</h6>
+                    </center>    
+                    <ul>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> #503 Ventas</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> *300 desde tu móvil Huawei</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#"> 118 gratis desde teléfonos fijos</a> </li>
+                        <br></br> 
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#">018000 42 22 22 gratis fijos y móvil</a> </li>
+                        <br></br>
+                        <li id="puntero" class="fa fa-paper-plane wow wobble" > <a href="#">*111# Gestiones / Consultas</a> </li>
+
+
+                    </ul>   
+
+                </div>
+
+
+
+            </div>
+
+
+            <!--CODIGO PARA EL PRIMER FOOTER -->
+
+            <!--////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+            <footer jsf:id="footer" class="footer">
+                <div class="">
+
+
+                </div>
+
+                <p class="copy"> copy Huawei Telecomunicaciones Desarrollo web Todos los derechos reservados 2017</p>
+                <h4> Aldo Jose Yate Fabio Camelo Camilo Andres Yate</h4>
+
+
+
+            </footer>
+        </div>
+
+        <!--TOCO PONER EL SCRIPT AQUI POR QUE HAY PROBELMAS DE CONEXION -->
+
+        <script type="text/javascript">
+
+            var slider = $('#slider');
+            var siguiente = $('#btn-next');
+            var anterior = $('#btn-prev');
+            console.log("mover ultima imagen al primer lugar");
+            $('#slider section:last').insertBefore('#slider section:first');
+
+
+            console.log("mostrat la primera imagen con una imagen de -100%");
+            slider.css('margin-left', '-' + 100 + '%');
+
+            function moverD() {
+
+                console.log("INGRESA A LA FUNCION moverD");
+                slider.animate({marginLeft: '-' + 200 + '%'}, 700, function () {
+
+                    $('#slider section:first').insertAfter('#slider section:last');
+                    slider.css('margin-left', '-' + 100 + '%');
+                });
+
+            }
+            function moverI() {
+
+                console.log("INGRESA A LA FUNCION ANTERIOR MOVER");
+                slider.animate({marginLeft: 0}, 700, function () {
+
+                    $('#slider section:last').insertBefore('#slider section:first');
+                    slider.css('margin-left', '-' + 100 + '%');
+                });
+
+            }
+
+            siguiente.on('click', function () {
+                console.log("se ejecuta la funcion");
+                moverD();
+            });
+            anterior.on('click', function () {
+                console.log("se ejecuta la funcion");
+                moverI();
+            });
+
+            function autoplay() {
+                interval = setInterval(function () {
+                    console.log("MOVIMIENTO AUTOMATICO DEL SLIDER");
+                    moverD();
+
+                }, 4000);
+
+            }
+
+            autoplay();
+
+
+        </script>
+        <script>
+
+            $(function () {
+                $.scrollUp({
+                    scrollImg: true,
+                    animation: 'slide',
+                    topSpeed: 600,
+                    animationInSpeed: 200,
+
+                });
+
+            });
+
+
+
+        </script>
+
+
+
+
+        <!--TOCO PONER EL SCRIPT AQUI POR QUE HAY PROBELMAS DE CONEXION -->
+    </h:body>
+
+
+</html>

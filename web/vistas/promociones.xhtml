@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:pt="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:jsf="http://xmlns.jcp.org/jsf">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta http-equiv="Content-Type" content="La empresa numero uno de telefonia movil en colombia" name="description" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <h:outputStylesheet name="./css/estilos.css"/>
+
+        <h:outputStylesheet name="./css/normalize.css"/>
+        <h:outputStylesheet name="./css/animate.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+        <h:outputStylesheet name="./css/font-awesome.min.css"/>
+
+        <h:outputScript name="jquery-3.2.1.min.js" library="js" />
+        <h:outputScript name="slider.js" library="js" />
+        <h:outputScript name="wow.min.js" library="js" />
+        <h:outputScript name="jquery.scrollUp.js" library="js" />
+        <link rel="stylesheet" href="https://file.myfontastic.com/cXCEhVVpRPcszceRNFnnQW/icons.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"/>
+
+
+        <title>Huawei Telecomunicaciones </title>
+
+
+    </h:head>
+
+    <h:body>
+
+
+        <div  class="principal">
+
+            <header>
+                <div class="inicio">
+                    <nav class="inicio-dos">
+
+
+                        <li type="button" class="btn btn-success boton"><a href="../login.jsp">Mi cuenta</a></li>
+
+                    </nav>
+                </div>
+            </header>
+
+            <header class="cabecera">
+
+                <div class="container_dos clearfix">
+                    <div   class="logo">
+
+                        <h:graphicImage library="img" name="huawei.png"/> 
+                    </div>
+
+                    <nav class="menu">
+
+                        <ul>
+                            <li > <a href="index.xhtml">Inicio</a></li>
+                            <li > <a href="celulares.xhtml">Móvil</a></li>
+                            <li class="active"> <a href="#">Hogares</a></li>
+                            <li> <a href="#">Empresas</a></li>
+                           
+                        </ul>
+
+                    </nav>
+                </div>
+
+            </header>
+
+            <!--SLIDER SEGUNDO ORDEN ESTAR REVISANDO CODIGO -->
+
+            <div id="c-slider">
+                <div id="slider">
+                    <section> 
+                        <img class="slider-img" src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/serie1.jpg?ln=img"></img>
+
+                    </section>
+                    <section> 
+                        <img class="slider-img" src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/serie2.jpg?ln=img"></img>
+                    </section>
+                    <section> 
+                        <img class="slider-img" src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/serie3.jpg?ln=img"></img>
+                    </section>
+                    <section> 
+                        <img class="slider-img" src="/Huawei_Telecomunicaciones_JS/faces/javax.faces.resource/serie4.jpg?ln=img"></img>
+                    </section>
+
+
+                </div>
+                <div id="btn-prev"> &#60;</div>
+                <div id="btn-next">&#62;</div>
+
+            </div>
+
+            <!--SLIDER SEGUNDO ORDEN ESTAR REVISANDO CODIGO -->
+
+            <area>
+                <section jsf:id="section" class="tabla">
+                    <div class="tablax4">
+                        <div class="caja-precio">
+                            <div class="icono-precio"><i class="fa fa-cubes" aria-hidden="true"></i>
+                            </div>
+
+                            <div> <h4 class="plan">Plan Uno Plus</h4></div>
+                            <div class="precio-1"> <span class="dolar">$</span>115.900<span class="mes">/Mes</span> </div>
+
+                            <div>
+                                <ul class="lista-precios">
+                                    <li class="lista-espacios">46 canales HD</li>
+                                    <li class="lista-espacios">97 canales estándar</li>
+                                    <li class="lista-espacios">2 decodificadores HD</li>
+                                    <li class="lista-espacios">Miles de series y películas</li>
+                                    <li class="lista-espacios">en Claro video</li>
+                                    <li class="lista-espacios"><h6>*Precio para estrato 3</h6></li>
+
+
+                                </ul>
+
+
+                            </div>
+
+                            <div class="boton-contratar">
+                                <a href="#" class="contratar-a">Contrátalo</a>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="tablaxd">
+                        <div class="caja-precio destacado">
+                            <div class="icono-precio"><i class="fa fa-cubes" aria-hidden="true"></i>
+                            </div>
+
+                            <div> <h4 class="plan">Plan Dos Familiar</h4></div>
+                            <div> 
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+
+
+
+                            </div>
+                            <div class="precio-1"> <span class="dolar">$</span>115.900<span class="mes">/Mes</span> </div>
+
+                            <div>
+                                <ul class="lista-precios">
+                                    <li class="lista-espacios">46 canales HD</li>
+                                    <li class="lista-espacios">97 canales estándar</li>
+                                    <li class="lista-espacios">2 decodificadores HD</li>
+                                    <li class="lista-espacios">Miles de series y películas</li>
+                                    <li class="lista-espacios">en Claro video</li>
+                                    <li class="lista-espacios"><h6>*Precio para estrato 3</h6></li>
+
+
+                                </ul>
+
+
+                            </div>
+
+                            <div class="boton-contratar">
+                                <a href="#" class="contratar-a">Contrátalo</a>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="tablax4">
+                        <div class="caja-precio">
+                            <div class="icono-precio"><i class="fa fa-cubes" aria-hidden="true"></i>
+                            </div>
+
+                            <div> <h4 class="plan">Plan Tres Plus</h4></div>
+                            <div class="precio-1"> <span class="dolar">$</span>115.900<span class="mes">/Mes</span> </div>
+
+                            <div>
+                                <ul class="lista-precios">
+                                    <li class="lista-espacios">46 canales HD</li>
+                                    <li class="lista-espacios">97 canales estándar</li>
+                                    <li class="lista-espacios">2 decodificadores HD</li>
+                                    <li class="lista-espacios">Miles de series y películas</li>
+                                    <li class="lista-espacios">en Claro video</li>
+                                    <li class="lista-espacios"><h6>*Precio para estrato 3</h6></li>
+
+
+                                </ul>
+
+
+                            </div>
+
+                            <div class="boton-contratar">
+                                <a href="#" class="contratar-a">Contrátalo</a>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="tablax4">
+                        <div class="caja-precio">
+                            <div class="icono-precio"><i class="fa fa-cubes" aria-hidden="true"></i>
+                            </div>
+
+                            <div> <h4 class="plan">Plan Cuatro </h4></div>
+                            <div class="precio-1"> <span class="dolar">$</span>115.900<span class="mes">/Mes</span> </div>
+
+                            <div>
+                                <ul class="lista-precios">
+                                    <li class="lista-espacios">46 canales HD</li>
+                                    <li class="lista-espacios">97 canales estándar</li>
+                                    <li class="lista-espacios">2 decodificadores HD</li>
+                                    <li class="lista-espacios">Miles de series y películas</li>
+                                    <li class="lista-espacios">en Claro video</li>
+                                    <li class="lista-espacios"><h6>*Precio para estrato 3</h6></li>
+
+
+                                </ul>
+
+
+                            </div>
+
+                            <div class="boton-contratar">
+                                <a href="#" class="contratar-a">Contrátalo</a>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </section>
+
+
+            </area>
+
+
+
+
+
+
+
+            <div class="sociales">
+                <ul>
+                    <li><a href="https://es-la.facebook.com/huaweimobile/" target="_blank" class="icon-facebook" name="facebook"></a> </li>
+                    <li><a href="https://twitter.com/huaweimobile" target="_blank" class="icon-twitter"></a> </li>
+                    <li><a href="https://plus.google.com/+huawei" target="_blank" class="icon-google"></a> </li>
+                    <li><a href="https://www.youtube.com/channel/UCtjV1_XU6gvPYyreaFScxBQ" target="_blank" class="icon-youtube"></a> </li>
+                    <li><a href="https://web.whatsapp.com/" target="_blank"  class="icon-whatsapp"></a> </li>
+                    <li><a href="https://www.instagram.com/huaweimobile/" target="_blank"  class="icon-instagram"></a> </li>
+
+
+
+                </ul>
+
+
+            </div>
+
+       
+            
+        </div>
+
+        <!--TOCO PONER EL SCRIPT AQUI POR QUE HAY PROBELMAS DE CONEXION -->
+
+        <script type="text/javascript">
+
+            var slider = $('#slider');
+            var siguiente = $('#btn-next');
+            var anterior = $('#btn-prev');
+            console.log("mover ultima imagen al primer lugar");
+            $('#slider section:last').insertBefore('#slider section:first');
+
+
+            console.log("mostrat la primera imagen con una imagen de -100%");
+            slider.css('margin-left', '-' + 100 + '%');
+
+            function moverD() {
+
+                console.log("INGRESA A LA FUNCION moverD");
+                slider.animate({marginLeft: '-' + 200 + '%'}, 700, function () {
+
+                    $('#slider section:first').insertAfter('#slider section:last');
+                    slider.css('margin-left', '-' + 100 + '%');
+                });
+
+            }
+            function moverI() {
+
+                console.log("INGRESA A LA FUNCION ANTERIOR MOVER");
+                slider.animate({marginLeft: 0}, 700, function () {
+
+                    $('#slider section:last').insertBefore('#slider section:first');
+                    slider.css('margin-left', '-' + 100 + '%');
+                });
+
+            }
+
+            siguiente.on('click', function () {
+                console.log("se ejecuta la funcion");
+                moverD();
+            });
+            anterior.on('click', function () {
+                console.log("se ejecuta la funcion");
+                moverI();
+            });
+
+            function autoplay() {
+                interval = setInterval(function () {
+                    console.log("MOVIMIENTO AUTOMATICO DEL SLIDER");
+                    moverD();
+
+                }, 4000);
+
+            }
+
+            autoplay();
+
+
+        </script>
+        <script>
+
+            $(function () {
+                $.scrollUp({
+                    scrollImg: true,
+                    animation: 'slide',
+                    topSpeed: 600,
+                    animationInSpeed: 200,
+
+                });
+
+            });
+
+
+
+        </script>
+
+
+
+
+        <!--TOCO PONER EL SCRIPT AQUI POR QUE HAY PROBELMAS DE CONEXION -->
+    </h:body>
+
+
+</html>
